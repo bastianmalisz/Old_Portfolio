@@ -1,0 +1,141 @@
+.p2-appendedChild{
+    font-size:1.4em;
+}
+body > div > div.rest > div.p2 > div > div > div:nth-child(6) > span{
+    font-size: 1.7em;
+}
+.p4-header{
+    position:absolute;
+    top:0;
+}
+.webapp{
+    height:40%;
+    transition:all cubic-bezier(0.39, 0.575, 0.565, 1)
+}
+.opis-app{
+    width:100%;
+    left:0;
+    top:-5%;
+}
+.p4-inner-app1{
+    top: -15%;
+    position: relative;
+    left: 0;
+}
+.p4-inner-app2{
+    top:-35%;
+    position:relative;
+    left:0;
+}
+.p4-inner-app3{
+    top:-15%;
+    position:relative;
+    left: -100%;
+}
+.p4-inner-app4{
+    top:-23%;
+    position:relative;
+    left: -100%;
+}
+.p4-header {
+    bottom: 7%;
+    width: 76%;
+    left: 12%;
+}
+.p5-header {
+    bottom: 3%;
+    width: 76%;
+    left: 12%;
+}
+.headerz{
+    font-size: 2.2em;
+    line-height: 2.5em;
+}
+form{
+    height:100%;
+    padding-top:50px;
+}
+.contact-icons {
+    width: 90%;
+    height: 20%;
+    left: 0;
+    top: 79%;
+    left:5%;
+    border: 0px;
+    box-shadow: 10px 20px 40px rgba(156, 156, 156, 0.432);
+    background-color: rgba(255, 255, 255, 0.384);
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.icons{
+    width: 15%;
+    height:20%;
+    position:absolute;
+}
+.phone{
+    background-size: contain;
+    left:5px;
+    top:30px;
+}
+.github{
+    background-size: contain;
+    left:5px;
+    top:80px;
+}
+.email{
+    background-size: contain;
+    left:5px;
+    top:130px;
+}
+form>label {
+    font-size: 2.1em;
+    margin-top: 10px;
+}
+.input-email {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top:15px;
+}
+textarea{
+    margin-top: 10px;
+}
+.lapka {
+    font-size: 1.5em;
+    width: 80%;
+    left: 10%;
+    position:relative;
+}
+.kciuk{
+    font-size:1.5em;
+    margin-top:10px;
+    
+}
+.submicik{
+    margin-top: 30px;
+    font-size:1.8em;
+}
+
+.phone-text{
+    font-size:2.2em;
+    line-height:0.8em;
+}
+
+.github-link{
+    font-size:2.3em;
+    line-height:1.2em;
+}
+.github-link>a{
+    color:black;
+    text-decoration: none;
+
+}
+.github-link>a:hover{
+    text-shadow: 1px 2px 2px black;
+}
+
+.email-mail{
+    font-size:1.9em;
+    margin-left:20px;
+    
+}
