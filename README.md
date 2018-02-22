@@ -6,6 +6,7 @@ Stawiam na szybki rozwój umiejętności programistyczych, dobrą współpracę 
 # Wersja Live
 Dostępna pod adresem:
 <a href="https://bastianmalisz.github.io/Portfolioo/index.html">Live Sebastian portfolio </a>
+
 # O portfolio
 Portfolio składa się z 4 części: 
 <li><b>sekcji o mnie</b></li>
@@ -15,10 +16,11 @@ Portfolio składa się z 4 części:
 Starałem się, żeby samo protfolio świadczyło o moim nieszablonowym podejściu do tematu. Lubię bawić się formą i jak na swoje umiejętności eksperymentować, dlatego też spróbowałem zrobić samodzielnie poziomy scroll, elementy pojawiąjące się na scrollu itd. 
 Wiem, że prawdopodobnie wykorzystanie gotowych sippetów czy bibliotek dałoby podobny lub lepszy efekt przy mniejszym nakładzie pracy, ale napewno nie dałyby mi świadomości zrozumienia tworzonego kodu, a to jest dla mnie najistotniejsze.
 Zapraszam do sprawdzenia.
+
 # Aplikacje wyróżnione w portfolio
 W portfolio zamieściłem 4 aplikacje. Nie są to moje jedyne, ale myślę, że najlepsze na chwilę obecną. Wciąż się uczę i doskonale umiejętności, więc sądzę, że niebawem stworzę coś lepszego :D
 
-<h1> DO ZEDYTOWANIA </h1>
+<h4> DO ZEDYTOWANIA </h4>
 <li>Aplikacja pogoda głosowa</li>
 <li>Aplikacja kalendarz</li>
 <li>Aplikacja tekst edytor</li>
