@@ -12,3 +12,16 @@ Portfolio składa się z 4 części:
 <li>sekcji o moich projektów witryn</li>
 <li>sekcji moich wykonanych aplikacji</li>
 <li>sekcji kontaktu</li>
+Starałem się, żeby samo protfolio świadczyło o moim nieszablonowym podejściu do tematu. Lubię bawić się formą i jak na swoje umiejętności eksperymentować, dlatego też spróbowałem zrobić samodzielnie poziomy scroll, elementy pojawiąjące się na scrollu itd. 
+Wiem, że prawdopodobnie wykorzystanie gotowych sippetów czy bibliotek dałoby podobny lub lepszy efekt przy mniejszym nakładzie pracy, ale napewno nie dałyby mi świadomości zrozumienia tworzonego kodu, a to jest dla mnie najistotniejsze.
+Zapraszam do sprawdzenia.
+# Aplikacje wyróżnione w portfolio
+W portfolio zamieściłem 4 aplikacje. Nie są to moje jedyne, ale myślę, że najlepsze na chwilę obecną. Wciąż się uczę i doskonale umiejętności, więc sądzę, że niebawem stworzę coś lepszego :D
+
+<h1> DO ZEDYTOWANIA </h1>
+<li>Aplikacja pogoda głosowa</li>
+<li>Aplikacja kalendarz</li>
+<li>Aplikacja tekst edytor</li>
+<li>Aplikacja music player</li>
+
+
