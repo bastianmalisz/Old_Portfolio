@@ -8,10 +8,10 @@ Dostępna pod adresem:
 <a href="https://bastianmalisz.github.io/Portfolioo/index.html">Live Sebastian portfolio </a>
 # O portfolio
 Portfolio składa się z 4 części: 
-<li>sekcji o mnie</li>
-<li>sekcji o moich projektów witryn</li>
-<li>sekcji moich wykonanych aplikacji</li>
-<li>sekcji kontaktu</li>
+<li><b>sekcji o mnie</b></li>
+<li><b>sekcji o moich projektów witryn</b></li>
+<li><b>sekcji moich wykonanych aplikacji</b></li>
+<li><b>sekcji kontaktu</b></li>
 Starałem się, żeby samo protfolio świadczyło o moim nieszablonowym podejściu do tematu. Lubię bawić się formą i jak na swoje umiejętności eksperymentować, dlatego też spróbowałem zrobić samodzielnie poziomy scroll, elementy pojawiąjące się na scrollu itd. 
 Wiem, że prawdopodobnie wykorzystanie gotowych sippetów czy bibliotek dałoby podobny lub lepszy efekt przy mniejszym nakładzie pracy, ale napewno nie dałyby mi świadomości zrozumienia tworzonego kodu, a to jest dla mnie najistotniejsze.
 Zapraszam do sprawdzenia.
