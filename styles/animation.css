@@ -6,7 +6,6 @@
     left:0%;
     background-color: white;
     z-index:100;
-
 }
 .circle1, .circle2{
    
@@ -17,13 +16,7 @@
     animation-iteration-count: infinite;
     border-width: 10px;
     border-radius: 50%;
-    /* animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045) */
-    animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86)
-    /* animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1) */
-
-}
-.nazwa-anim{
-    animation-name: kolo;
+    animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86) 
 }
 @keyframes kolo{
     from{transform: rotate(0deg);}
@@ -35,7 +28,6 @@
     top: 40%;
     left:45%;
     border-top: 8px double rgba(255, 0, 0, 0.493);
-    
 }
 .circle2{
     width: 10%;
@@ -43,6 +35,4 @@
     top: 40%;
     left:45%;
     border-bottom: 8px double rgba(0, 0, 255, 0.486);
-    
-
 }
