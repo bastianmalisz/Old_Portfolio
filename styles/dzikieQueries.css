@@ -1,0 +1,6 @@
+/* style dla dziwnych wyswietlaczy (jak np dziki dlugasny iphone 10) */
+
+/* Jesli telefon ma mniej niz 400 px szerokosci i wiecej jak 700px wysokosci */
+@media screen and (max-width: 400px) and (min-height: 699px) {
+
+}

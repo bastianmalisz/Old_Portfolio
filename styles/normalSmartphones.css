@@ -1,6 +1,23 @@
+.headerz{
+    line-height: 2.8em;
+}
 .linki{
     line-height: 2.5em;
     font-size:0.9em;
+}
+.odsun {
+    animation-name: odsun;
+    animation-fill-mode: forwards;
+    animation-duration: 0.6s;
+    animation-timing-function:cubic-bezier(0.68, -0.55, 0.265, 1.55)
+}
+@keyframes odsun {
+    from {
+        left: 0
+    }
+    to {
+        left: -80%;
+    }
 }
 .p4-header {
     bottom: 3%;
@@ -12,6 +29,7 @@ width: 80%;
 left: 10%;
 top: 78%;
 }
+
 .icons{
     width: 8%;
     height:20%;
