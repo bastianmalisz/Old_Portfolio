@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sebastian Maliszewski portfolio v0.99</title>
+    <!-- Główny CSS -->
     <link rel="stylesheet" href="styles/styleMain.css">
+    <!-- Css z animacja preloadera -->
     <link href="styles/animation.css" rel="stylesheet">
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.js" integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg=" crossorigin="anonymous"></script>
@@ -13,7 +15,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-    <!-- Opisy dla FB i mediow spolecznosciowych -->
+    <!-- Opisy z open graph -->
     <meta property="og:image" content="https://i.imgur.com/n2TcRoi.jpg" />
     <meta property="og:image:width" content="250" />
     <meta property="og:image:height" content="250" />
@@ -25,24 +27,16 @@
     <script src ="scripts/cssloader.js" ></script>
     <!-- Skrypt preloadera -->
     <script src ="scripts/preload.js" ></script>
-
 </head>
-
 <body>
-        
-        <div id="preload-div">
-                <div class="animatio">
-                        <div class="circle1 circle"></div>
-                        <div class="circle2 circle"></div>
-                        <div class="circle3 circle"></div>
-                        <div class="circle4 circle"></div>
-                     
-                    </div>
+    <div id="preload-div">
+        <div class="animatio">
+            <div class="circle1 circle"></div>
+            <div class="circle2 circle"></div>
         </div>
-        
+    </div>
     <div class="calosc" id="calo">
         <div class="p1">
-
             <div class="container">
                 <div class="napis" id="napis1">Cześć!</div>
             </div>
@@ -50,29 +44,26 @@
                 <div class="napis" id="napis2">Poznaj mnie</div>
             </div>
         </div>
-
-        <div class="rest">
-
-            <div class="nav">
-                <div class="nav-page1 nav-page">
-                    <div class="page-nazwa">O mnie</div>
-                </div>
-                <div class="nav-page2 nav-page">
-                    <div class="page-nazwa">Witryny</div>
-                </div>
-                <div class="nav-page3 nav-page">
-                    <div class="page-nazwa">Aplikacje</div>
-                </div>
-                <div class="nav-page4 nav-page">
-                    <div class="page-nazwa">Kontakt</div>
-                </div>
+    <div class="rest">
+        <div class="nav">
+            <div class="nav-page1 nav-page">
+                <div class="page-nazwa">O mnie</div>
             </div>
-            <div class="p2">
-
-                <div class="p-layer p2-layer">
-                    <div class="p2-container">
-                        <div class="p2-container-image_section">
-                            <div class="p2-image" alt="creator's face"></div>
+            <div class="nav-page2 nav-page">
+                <div class="page-nazwa">Witryny</div>
+            </div>
+            <div class="nav-page3 nav-page">
+                <div class="page-nazwa">Aplikacje</div>
+            </div>
+            <div class="nav-page4 nav-page">
+                <div class="page-nazwa">Kontakt</div>
+            </div>
+        </div>
+        <div class="p2">
+            <div class="p-layer p2-layer">
+                <div class="p2-container">
+                    <div class="p2-container-image_section">
+                        <div class="p2-image" alt="creator's face"></div>
                             <div class="p2-container-text">
                                 <div class="p2-container-text-balls">
                                     <div class="p2-text-ball ball1"></div>
@@ -80,15 +71,13 @@
                                     <div class="p2-text-ball ball3"></div>
                                 </div>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
+        </div>
             <div class="p3">
-
                 <div class="p-layer p3-layer">
                     <div class="p-container">
-
                         <div class="p3-inner">
                             <div class="p3-inner-header headerz">Wykonane witryny</div>
                             <div class="p3-inner-webinfo web1-info">
@@ -121,124 +110,80 @@
                             <img src="images/maliwojownicy.png" class="p3-inner-web web1" data-info="html bootstrap"></img>
                             <img src="images/kasia-salon.png" class="p3-inner-web web2" data-info="html bootstrap"></img>
                             <img src="images/lapkoczyn.png" class="p3-inner-web web3" data-info="html bootstrap"></img>
-
                         </div>
                     </div>
                 </div>
             </div>
             <div class="p4">
-
                 <div class="p-layer p4-layer">
-
                     <div class="p-container">
-
                         <div class="p4-inner">
                             <div class="p4-header headerz">
                                 Wykonane Aplikacje
-
                             </div>
-
                             <div class="p4-inner-app1 webapp">
-
                                 <div class="opis-app opisapp1">
                                     <span class="app-nazwa opisappiner11">Pogoda app</span>
                                     <span class="app-features opisappiner12">
-                                                <span>Użyto: JS ES6, Speech Api, Weather Api</span>
+                                    <span>Użyto: JS ES6, Speech Api, Weather Api</span>
                                     </span>
                                     <span class="app-dopisek opisappiner13">
-                                                <span class="pogoda-opis">Aplikacja pobiera lokalizacje oraz dane z zewnętrznego źródła o pogodzie. Google Speech Api odczytuje komendę głosową oraz czyta pogodę.
+                                        <span class="pogoda-opis">Aplikacja pobiera lokalizacje oraz dane z zewnętrznego źródła o pogodzie. Google Speech Api odczytuje komendę głosową oraz czyta pogodę.
                                                 Bro tip: Niezbędne jest włączenie lokalizacji.
                                                 Bro tip 2: Musi być uruchomiona na Chrome.
-                                
-                                                </span>
+                                        </span>
                                     </span>
                                     <span class="linki opisappiner14">
-                                                <a href="#">Github</a> <a href="#">Live</a>
-                                               
-                                            </span>
-
+                                        <a href="#">Github</a> <a href="#">Live</a>
+                                    </span>
                                 </div>
                             </div>
-
-
                             <div class="p4-inner-app2 webapp">
-
                                 <div class="opis-app opisapp2">
                                     <span class="app-nazwa opisappiner21">Kalendarz</span>
                                     <span class="app-features opisappiner22">
-                                                        <span>Użyto: JS ES6, jQuery</span>
+                                        <span>Użyto: JS ES6, jQuery</span>
                                     </span>
                                     <span class="app-dopisek opisappiner23">
-                                                        <span class="kalendarz-opis">Aplikacja wyświetlająca kalendarz, w którym można dodać planowane wydarzenia. Zapisuje wydarzenia w local storage.
-                                        
-                                                        </span>
+                                        <span class="kalendarz-opis">Aplikacja wyświetlająca kalendarz, w którym można dodać planowane wydarzenia. Zapisuje wydarzenia w local storage.</span>
                                     </span>
                                     <span class="linki opisappiner24">
-                                                        <a href="#">Github</a> <a href="#">Live</a>
-                                                       
-                                                    </span>
-
+                                        <a href="#">Github</a> <a href="#">Live</a>
+                                    </span>
                                 </div>
                             </div>
-
-
                             <div class="p4-inner-app3 webapp">
-
                                 <div class="opis-app opisapp3">
                                     <span class="app-nazwa opisappiner31">Tekst edytor</span>
                                     <span class="app-features opisappiner32">
-                                                        <span>Użyto: JS ES6, jQuery</span>
+                                        <span>Użyto: JS ES6, jQuery</span>
                                     </span>
                                     <span class="app-dopisek opisappiner33">
-                                                        <span class="edytor-opis">Aplikacja edytor tekstu. Pozwala na edycje tekstu i na kilka opcji edytorskich. Aplikacja pozwala także na zapisanie tekstu w local storage lub pobranie go na dysk.
-                                        
-                                                        </span>
+                                        <span class="edytor-opis">Aplikacja edytor tekstu. Pozwala na edycje tekstu i na kilka opcji edytorskich. Aplikacja pozwala także na zapisanie tekstu w local storage lub pobranie go na dysk.</span>
                                     </span>
                                     <span class="linki opisappiner34">
-                                                        <a href="#">Github</a> <a href="#">Live</a>
-                                                       
-                                                    </span>
-
+                                        <a href="#">Github</a> <a href="#">Live</a>
+                                    </span>
                                 </div>
                             </div>
-
-
-
                             <div class="p4-inner-app4 webapp">
-
                                 <div class="opis-app opisapp4">
                                     <span class="app-nazwa opisappiner41">Music player</span>
                                     <span class="app-features opisappiner42">
-                                                        <span>Użyto: JS ES6, canvas, audio context</span>
+                                        <span>Użyto: JS ES6, canvas, audio context</span>
                                     </span>
                                     <span class="app-dopisek opisappiner43">
-                                                        <span class="music-opis">Aplikacja player muzyczny. Pozwala na odtworzenie wybranych utworów oraz oferuje wizualizację stworzoną za pomocą audio context.
-                                        
-                                                        </span>
+                                        <span class="music-opis">Aplikacja player muzyczny. Pozwala na odtworzenie wybranych utworów oraz oferuje wizualizację stworzoną za pomocą audio context.</span>
                                     </span>
                                     <span class="linki opisappiner44">
-                                                        <a href="#">Github</a> <a href="#">Live</a>
-                                                       
-                                                    </span>
-
+                                        <a href="#">Github</a> <a href="#">Live</a>
+                                    </span>
                                 </div>
                             </div>
-
-
-
-
-
-
-
-
-
                         </div>
                     </div>
                 </div>
-
             </div>
-
-
             <div class="p5">
                 <div class="bg-layer p5-layer">
                     <div class="p-container">
@@ -246,59 +191,39 @@
                             <div class="p5-header headerz">
                                 Kontakt
                             </div>
-
-                            <div class="form-container">
-                                <form>
-                                    <label> Twój Email</label>
-                                    <input type="email" name="email" placeholder=" proszę wpisz swój email" required class="input-email">
-
-                                    <label>Tekst wiadomości</label>
-                                    <textarea class="input-textarea" name="wiadomosc" rows="5" cols="30" required>
-                                                        
-                                                </textarea>
-
-                                    <label class="lapka">Czy chcesz wysłać mi łapkę w górę sugerującą, że podobają Ci się moje projekty? Będzie mi miło.</label>
-                                    <select name="kciuk" class="kciuk">
-                                                    <option value="daj" selected>Bardzo chcę</option>
-                                                    </select>
-
-
-                                    <input type="submit" class="submicik">
-                                </form>
-                            </div>
-
-                            <div class="contact-icons">
-                                <div class="phone icons">
-                                </div>
-                                <div class="phone-text"></div>
-                                <div class="github icons"></div>
-                                <div class="github-link"></div>
-                                <div class="email icons">
-
-                                </div>
-                                <div class="email-mail"></div>
-                            </div>
+                        <div class="form-container">
+                            <form>
+                                <label> Twój Email</label>
+                                <input type="email" name="email" placeholder=" proszę wpisz swój email" required class="input-email">
+                                <label>Tekst wiadomości</label>
+                                <textarea class="input-textarea" name="wiadomosc" rows="5" cols="30" required></textarea>
+                                <label class="lapka">Czy chcesz wysłać mi łapkę w górę sugerującą, że podobają Ci się moje projekty? Będzie mi miło.</label>
+                                <select name="kciuk" class="kciuk">
+                                    <option value="daj" selected>Bardzo chcę</option>
+                                </select>
+                                <input type="submit" class="submicik">
+                            </form>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="phone icons"></div>
+                            <div class="phone-text"></div>
+                            <div class="github icons"></div>
+                            <div class="github-link"></div>
+                            <div class="email icons"></div>
+                            <div class="email-mail"></div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
-        <div class="p6 ">
-
-        </div>
-
-
     </div>
-    </div>
-    
-    <script src = "scripts/scrollEvents.js"></script>
-    <script src = "scripts/helloScreenSettings.js"></script>
-    <script src = "scripts/websiteImagesScript.js"></script>
-    <script src = "scripts/aplicationsScripts.js"></script>
-    <script src = "scripts/navigationSettings.js"></script>
-    <script src = "scripts/animatedContactIcons.js"></script>
-    <script src = "scripts/helloScreenLines.js"></script>
+<script src = "scripts/scrollEvents.js"></script>
+<script src = "scripts/helloScreenSettings.js"></script>
+<script src = "scripts/websiteImagesScript.js"></script>
+<script src = "scripts/aplicationsScripts.js"></script>
+<script src = "scripts/navigationSettings.js"></script>
+<script src = "scripts/animatedContactIcons.js"></script>
+<script src = "scripts/helloScreenLines.js"></script>
+
 </body>
-
 </html>
