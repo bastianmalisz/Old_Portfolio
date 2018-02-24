@@ -52,6 +52,25 @@ function ruszKreski() {
 
     }
 }
+// Tlumaczenie skryptu
+function zniszczKreski(){
+    //tworzę metode własną o nazwie remove
+    Element.prototype.remove = function() {
+        // rodzic(parentElement) tego(this) elementu przyjmuje metode usun dziecko (ten element-this)
+        this.parentElement.removeChild(this);
+    }
+    // jesli elementow jest wiele: 
+    // nodelist to kolekcja nodow, ustawiam dla niej nową metodę,
+    NodeList.prototype.remove = HTMLCollection.prototype.remove = function() {
+        for(var i = this.length - 1; i >= 0; i--) {
+            if(this[i] && this[i].parentElement) {
+                this[i].parentElement.removeChild(this[i]);
+            }
+        }
+    }
+    const kreski1 = document.querySelectorAll(".kreski");
+    kreski1.remove();
+}
 
 document.addEventListener('scroll', ruszKreski);
 document.onload = rozmiescKreski();

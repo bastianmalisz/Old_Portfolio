@@ -1,4 +1,4 @@
-if(window.innerWidth < 750){
+// if(window.innerWidth < 750){
 document.querySelector(".p4-inner").addEventListener("click", function(e) {
     let apki = document.querySelectorAll(".webapp");
     console.log(e);
@@ -110,4 +110,4 @@ document.querySelector(".p4-inner-app4").addEventListener('mouseleave', function
     //     });
     app4.classList.remove('app4-gif');
 });
-}
+// }

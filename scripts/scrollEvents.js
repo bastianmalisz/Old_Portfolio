@@ -151,6 +151,7 @@ function rusz() {
     // 6 ekran |5 winheighty| 2 slajd wkracza do gry, ten z moim ryjcem
     if (wScroll > winHeight * 1.1) {
         navi.classList.add("display-flex");
+        zniszczKreski();
         // ODLICZANKO 15s lacznie?
         licz == 0 ? animujSlajd() : console.log("fakaj bobla");
 
@@ -323,7 +324,7 @@ function rusz() {
                                     if(wScroll > winHeight*3.6 && wScroll < winHeight*4.2){
                                         let wysokosci = (wScroll - winHeight*3.4);
                                         
-                                            app[1].style.transform = "translateY("+(wysokosci/3)+"px)"
+                                            app[1].style.transform = "translateY("+(wysokosci/3)+"px) translateZ(0)";
                                             document.querySelector(".opisapp1").classList.add("zniknij");
                                         
                                     }
@@ -333,8 +334,8 @@ function rusz() {
                                             document.querySelector(".opisapp1").classList.add("display-flex");
                                             document.querySelector(".opisapp1").classList.add("pojaw");
                                             document.querySelector(".opisapp1").classList.remove("zniknij");
-                                            document.querySelector(".opisapp1").style.transform = "translateY(-"+(wysokosci1/2)+"px)"
-                                            app[1].style.transform = "translateY("+(winHeight*.25+wysokosci1/200)+"px)"
+                                            document.querySelector(".opisapp1").style.transform = "translateY(-"+(wysokosci1/2)+"px) translateZ(0)";
+                                            app[1].style.transform = "translateY("+(winHeight*.25+wysokosci1/200)+"px) translateZ(0)";
                                             app[1].classList.remove("zniknij");
                                             app[2].classList.add("display-none");
                                     }
@@ -352,7 +353,7 @@ function rusz() {
                                         let wysokosci2= (wScroll - winHeight*5.2);
                                             app[2].classList.remove("display-none");
                                             app[2].classList.add("pojaw-wolno");
-                                            app[2].style.transform = "translateY("+(wysokosci2/1.8)+"px)";
+                                            app[2].style.transform = "translateY("+(wysokosci2/1.8)+"px) translateZ(0)";
                                             document.querySelector(".opisapp2").classList.add("zniknij");
                                             
                                     }
@@ -361,7 +362,7 @@ function rusz() {
                                         document.querySelector(".opisapp2").classList.add("display-flex");
                                             document.querySelector(".opisapp2").classList.add("pojaw");
                                             document.querySelector(".opisapp2").classList.remove("zniknij");
-                                            document.querySelector(".opisapp2").style.transform = "translateY(-"+(wysokosci3/3)+"px)"
+                                            document.querySelector(".opisapp2").style.transform = "translateY(-"+(wysokosci3/3)+"px) translateZ(0)";
                                             app[2].style.transform = "translateY("+(winHeight*.25+wysokosci3/200)+"px)"
                                             app[2].classList.remove("zniknij");
                                             app[3].classList.add("display-none");
@@ -377,7 +378,7 @@ function rusz() {
                                         let wysokosci4= (wScroll - winHeight*7);
                                             app[3].classList.remove("display-none");
                                             app[3].classList.add("pojaw-wolno");
-                                            app[3].style.transform = "translateY("+(wysokosci4/2.6)+"px)";
+                                            app[3].style.transform = "translateY("+(wysokosci4/2.6)+"px) translateZ(0)";
                                             document.querySelector(".opisapp3").classList.add("zniknij");
                                             
                                     }
@@ -387,8 +388,8 @@ function rusz() {
                                         document.querySelector(".opisapp3").classList.add("display-flex");
                                             document.querySelector(".opisapp3").classList.add("pojaw");
                                             
-                                            document.querySelector(".opisapp3").style.transform = "translateY(-"+(wysokosci5/4)+"px)"
-                                            app[3].style.transform = "translateY("+(winHeight*.25+wysokosci5/200)+"px)"
+                                            document.querySelector(".opisapp3").style.transform = "translateY(-"+(wysokosci5/4)+"px) translateZ(0)";
+                                            app[3].style.transform = "translateY("+(winHeight*.25+wysokosci5/200)+"px) translateZ(0)";
                                             app[3].classList.remove("zniknij");
                                             app[4].classList.add("display-none");
                                     }
@@ -402,7 +403,7 @@ function rusz() {
                                         let wysokosci6= (wScroll - winHeight*8.8);
                                             app[4].classList.remove("display-none");
                                             app[4].classList.add("pojaw-wolno");
-                                            app[4].style.transform = "translateY("+(wysokosci6/2.6)+"px)";
+                                            app[4].style.transform = "translateY("+(wysokosci6/2.6)+"px) translateZ(0)";
                                             document.querySelector(".opisapp4").classList.add("zniknij");
                                             
                                     }
@@ -412,8 +413,8 @@ function rusz() {
                                         document.querySelector(".opisapp4").classList.add("display-flex");
                                             document.querySelector(".opisapp4").classList.add("pojaw");
                                             
-                                            document.querySelector(".opisapp4").style.transform = "translateY(-"+(wysokosci7/2.6)+"px)"
-                                            app[4].style.transform = "translateY("+(winHeight*.25+wysokosci7/200)+"px)"
+                                            document.querySelector(".opisapp4").style.transform = "translateY(-"+(wysokosci7/2.6)+"px) translateZ(0)";
+                                            app[4].style.transform = "translateY("+(winHeight*.25+wysokosci7/200)+"px) translateZ(0)";
                                             app[4].classList.remove("zniknij");
                                     }
                                     if(wScroll > winHeight*10.3){

@@ -236,15 +236,18 @@ top: 2.5%; */
     transition: cubic-bezier(0.215, 0.610, 0.355, 1) all 0.5s;
     background-size: cover;
     background-repeat: no-repeat;
+    backface-visibility: hidden;
+    
+    will-change: transform;
 }
 .p4-inner-app1{
-    background: url("../images/pogodagif.gif");
+    /* background: url("../images/pogodagif.gif"); */
     background-size: cover;
     background-repeat: no-repeat;
 }
 .p4-inner-app2{
     top: -60vh;
-    background: url("../images/kalendarzgif.gif");
+    /* background: url("../images/kalendarzgif.gif"); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 20%;
@@ -252,7 +255,7 @@ top: 2.5%; */
 }
 .p4-inner-app3{
     top: -125vh;
-    background: url("../images/edytorgif.gif");
+    /* background: url("../images/edytorgif.gif"); */
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -260,7 +263,7 @@ top: 2.5%; */
 
 .p4-inner-app4{
     top: -180vh;
-    background: url("../images/muzykagif.gif");
+    /* background: url("../images/muzykagif.gif"); */
     background-size: contain;
     background-repeat: no-repeat;
 }

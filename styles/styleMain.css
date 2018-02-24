@@ -850,7 +850,7 @@ a:hover {
     background-position-y: 5%;
 }
 .app2-gif {
-    background: url("../images/kalendarzgif.gif");
+    /* background: url("../images/kalendarzgif.gif"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
