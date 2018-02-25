@@ -1,4 +1,5 @@
 // Skrypt ustawiający kolory elementów itd
+if(window.innerWidth > 650){
 const pasek = document.querySelector(".progress-bar");
 const p2bg = document.querySelector(".p2-layer")
 let flagX = false;
@@ -44,3 +45,4 @@ window.addEventListener('load',function(){
     }, 3000);
     
 })
+}
