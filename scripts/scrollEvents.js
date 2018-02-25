@@ -340,18 +340,18 @@ function rusz() {
                                     if(wScroll > winHeight*3.6 && wScroll < winHeight*4.2){
                                         let wysokosci = (wScroll - winHeight*3.4);
                                         
-                                            app[1].style.transform = "translateY("+(wysokosci/3)+"px) translateZ(0)";
+                                            app[1].style.transform = "translateY("+(wysokosci/3.2)+"px) translateZ(0)";
                                             document.querySelector(".opisapp1").classList.add("zniknij");
                                         
                                     }
-                                    if(wScroll > winHeight*4.2 && wScroll < winHeight*4.75){
+                                    if(wScroll > winHeight*3.9 && wScroll < winHeight*4.75){
                                         let wysokosci1 = (wScroll - winHeight*4.2);
                                             app[1].classList.add("maly-background");
                                             document.querySelector(".opisapp1").classList.add("display-flex");
                                             document.querySelector(".opisapp1").classList.add("pojaw");
                                             document.querySelector(".opisapp1").classList.remove("zniknij");
                                             document.querySelector(".opisapp1").style.transform = "translateY(-"+(wysokosci1/2)+"px) translateZ(0)";
-                                            app[1].style.transform = "translateY("+(winHeight*.25+wysokosci1/200)+"px) translateZ(0)";
+                                            app[1].style.transform = "translateY("+(winHeight*.22+wysokosci1/200)+"px) translateZ(0)";
                                             app[1].classList.remove("zniknij");
                                             app[2].classList.add("display-none");
                                     }
@@ -379,7 +379,7 @@ function rusz() {
                                             document.querySelector(".opisapp2").classList.add("pojaw");
                                             document.querySelector(".opisapp2").classList.remove("zniknij");
                                             document.querySelector(".opisapp2").style.transform = "translateY(-"+(wysokosci3/3)+"px) translateZ(0)";
-                                            app[2].style.transform = "translateY("+(winHeight*.25+wysokosci3/200)+"px)"
+                                            app[2].style.transform = "translateY("+(winHeight*.20+wysokosci3/200)+"px)"
                                             app[2].classList.remove("zniknij");
                                             app[3].classList.add("display-none");
                                     }
