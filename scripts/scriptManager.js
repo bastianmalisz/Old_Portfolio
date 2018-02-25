@@ -58,6 +58,9 @@ window.addEventListener('load',function(){
         for(let k = 0; k< document.querySelectorAll(".p3-inner-webinfo").length;k++){
             document.querySelectorAll(".p3-inner-webinfo")[k].style.boxShadow = "2px 5px 30px "+alphaColors[ktoryKolor]+"";
         }
+        for(let l = 0; l< document.querySelectorAll(".opisspan").length;l++){
+            document.querySelectorAll(".opisspan")[l].style.color = alphaColors[ktoryKolor];
+        }
         
 
         

@@ -241,9 +241,9 @@ html,body {
     border-style: solid;
     border-width: 0 40px 35px 0;
     border-color: transparent red transparent transparent;
-    bottom:-34px;
+    bottom:-32px;
     right:0;
-    z-index: 150;
+    z-index: 1;
 }
 .nav-asbolute:before{
     position:absolute;
@@ -253,9 +253,9 @@ html,body {
     border-style: solid;
     border-width: 35px 40px 0 0 ;
     border-color: red transparent  transparent transparent;
-    bottom:-34px;
+    bottom:-32px;
     left:0;
-    z-index: 150;
+    z-index: 1;
 }
 
     /* Progress bar */
@@ -315,6 +315,7 @@ html,body {
     box-sizing: border-box;
     line-height: 2.1em;
     z-index: 2;
+    transition: 3s cubic-bezier(0.165, 0.84, 0.44, 1) color;
 }
 
 .headerz:after {
@@ -627,7 +628,7 @@ body>div>div.rest>div.p2>div>div>div:nth-child(6) {
     background-repeat: no-repeat;
     /* transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1); */
     animation-name: bg-animate2;
-    animation-duration: 5s;
+    animation-duration: 25s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
     animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
@@ -779,9 +780,23 @@ body>div>div.rest>div.p2>div>div>div:nth-child(6) {
 }
 /* ustawienia dla part 4 p4-css-find*/
 
-.p4-layer {
-    background: url("../images/white-blur3.jpg");  
+.p4-layer,.p5-layer{
+    background: url("../img/white-blur2.jpg");
+    background-size:200% 200%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    /* transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1); */
+    animation-name: bg-animate2;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
+@keyframes bg-animate2{
+    from{background-position-x: 50%;}
+    to{background-position-x: 0%;}
+}
+
 .p4 {
     position: fixed;
     transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);
@@ -861,6 +876,7 @@ body>div>div.rest>div.p2>div>div>div:nth-child(6) {
     width: 90%;
     box-shadow: 5px 5px 10px rgba(31, 31, 31, 0.726);
     opacity: 0.9;
+    transition: all 2s cubic-bezier(0.215, 0.610, 0.355, 1);
 }
 .app-nazwa {
     height: 10%;
@@ -1005,8 +1021,8 @@ body>div>div.rest>div.p4>div>div>div>div.p4-inner-app2.webapp.powieksz>div>span.
 /* ustawienia dla part 5 p5-css-find*/
 
 .p5-layer {
-    background: url("../images/silver-blur.jpg");
-    width: 100%;
+    /* background: url("../images/silver-blur.jpg");
+    width: 100%; */
     height: 100vh;
 }
 .p5 {
