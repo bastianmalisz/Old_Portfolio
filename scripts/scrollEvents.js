@@ -405,7 +405,7 @@ function rusz() {
                                             document.querySelector(".opisapp3").classList.add("pojaw");
                                             
                                             document.querySelector(".opisapp3").style.transform = "translateY(-"+(wysokosci5/4)+"px) translateZ(0)";
-                                            app[3].style.transform = "translateY("+(winHeight*.25+wysokosci5/200)+"px) translateZ(0)";
+                                            app[3].style.transform = "translateY("+(winHeight*.23+wysokosci5/200)+"px) translateZ(0)";
                                             app[3].classList.remove("zniknij");
                                             app[4].classList.add("display-none");
                                     }
@@ -430,7 +430,7 @@ function rusz() {
                                             document.querySelector(".opisapp4").classList.add("pojaw");
                                             
                                             document.querySelector(".opisapp4").style.transform = "translateY(-"+(wysokosci7/2.6)+"px) translateZ(0)";
-                                            app[4].style.transform = "translateY("+(winHeight*.25+wysokosci7/200)+"px) translateZ(0)";
+                                            app[4].style.transform = "translateY("+(winHeight*.19+wysokosci7/200)+"px) translateZ(0)";
                                             app[4].classList.remove("zniknij");
                                     }
                                     if(wScroll > winHeight*10.3){

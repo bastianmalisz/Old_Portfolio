@@ -1,6 +1,38 @@
 .headerz{
     transition: 3s cubic-bezier(0.165, 0.84, 0.44, 1) color;
 }
+.nav-asbolute{
+    width: 7%!important;
+    height: 53%!important;
+    position: absolute!important;
+    bottom: -66%!important;
+    left: 0!important;
+    background-color: red!important;
+}
+.nav-asbolute:after{
+    position:absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 40px 35px 0;
+    border-color: transparent red transparent transparent;
+    bottom:-35px;
+    right:0;
+    z-index: 150;
+}
+.nav-asbolute:before{
+    position:absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 35px 40px 0 0 ;
+    border-color: red transparent  transparent transparent;
+    bottom:-35px;
+    left:0;
+    z-index: 150;
+}
 .pchaj {
     top: 60vh;
     border: 0px;
@@ -271,13 +303,7 @@ top: 2.5%; */
     
     will-change: transform;
 }
-.p4-inner-app1{
-    /* background: url("../images/pogodagif.gif"); */
-    /* background-size: 40% 60%; */
-    background-repeat: no-repeat;
-    background-position-x: 0%;
-    /* transition: background-size 0.6s ease-in; */
-}
+
 .p4-inner-app2{
     top: -60vh;
     /* background: url("../images/kalendarzgif.gif"); */
