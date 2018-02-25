@@ -8,6 +8,7 @@ var majorVersion = parseInt(navigator.appVersion, 10);
 var nameOffset, verOffset, ix;
 licz = 0;
 let flags = false;
+
 // In Opera 15+, the true version is after "OPR/" 
 if ((verOffset = nAgt.indexOf("OPR/")) != -1) {
     browserName = "Opera";
@@ -86,6 +87,21 @@ function rusz() {
     let wScroll = window.scrollY;
     // wysokosc okna uzytkownika
     const winHeight = window.innerHeight;
+    
+
+    // pasek prograsu
+
+    const pasek = document.querySelector(".progress-bar");
+    pasek.style.width = 0+"%";
+    
+    function ruszScrollBar(){
+        wysokoscDokumentuLiczba = parseInt(document.querySelector('.calosc').style.height, 10);
+        pasek.style.width = ((window.scrollY)/wysokoscDokumentuLiczba)*109+"%";
+        // let ktoryKolor = Math.floor((Math.random() * colors.length) + 0);
+        // pasek.style.backgroundColor = colors[ktoryKolor];
+        
+    }
+    ruszScrollBar();
     // kilki do animacji 
     const ball = new Array();
     for (i = 1; i < 4; i++) {
@@ -330,7 +346,7 @@ function rusz() {
                                     }
                                     if(wScroll > winHeight*4.2 && wScroll < winHeight*4.75){
                                         let wysokosci1 = (wScroll - winHeight*4.2);
-                                        
+                                            app[1].classList.add("maly-background");
                                             document.querySelector(".opisapp1").classList.add("display-flex");
                                             document.querySelector(".opisapp1").classList.add("pojaw");
                                             document.querySelector(".opisapp1").classList.remove("zniknij");
@@ -582,4 +598,3 @@ document.addEventListener('scroll', rusz);
 
 
 
-document.addEventListener('scroll', rusz);

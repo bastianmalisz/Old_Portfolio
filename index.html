@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="styles/dzikieQueries.css">
 </head>
 <body>
+    <div class="progress-bar"></div>
     <div id="preload-div">
         <div class="animatio">
             <div class="circle1 circle"></div>
@@ -48,8 +49,11 @@
         </div>
     <div class="rest">
         <div class="nav">
+            <div class="nav-asbolute"></div>
             <div class="nav-page1 nav-page">
-                <div class="page-nazwa">O mnie</div>
+                <div class="page-nazwa">O mnie
+                        <a href="#one">idz do anczor</a>
+                </div>
             </div>
             <div class="nav-page2 nav-page">
                 <div class="page-nazwa">Witryny</div>
@@ -61,7 +65,7 @@
                 <div class="page-nazwa">Kontakt</div>
             </div>
         </div>
-        <div class="p2">
+        <div class="p2" id="anchorOMnie">
             <div class="p-layer p2-layer">
                 <div class="p2-container">
                     <div class="p2-container-image_section">
@@ -77,7 +81,7 @@
                 </div>
             </div>
         </div>
-            <div class="p3">
+            <div class="p3" id="anchorWykonaneWitryny">
                 <div class="p-layer p3-layer">
                     <div class="p-container">
                         <div class="p3-inner">
@@ -116,68 +120,68 @@
                     </div>
                 </div>
             </div>
-            <div class="p4">
+            <div class="p4" id="one">
                 <div class="p-layer p4-layer">
                     <div class="p-container">
                         <div class="p4-inner">
                             <div class="p4-header headerz">
                                 Wykonane Aplikacje
                             </div>
-                            <div class="p4-inner-app1 webapp">
+                            <div class="p4-inner-app1 webapp" id="anchorApp1">
                                 <div class="opis-app opisapp1">
-                                    <span class="app-nazwa opisappiner11">Pogoda app</span>
-                                    <span class="app-features opisappiner12">
+                                    <span class="app-nazwa opisappiner11 opisspan">Pogoda app</span>
+                                    <span class="app-features opisappiner12 opisspan">
                                     <span>Użyto: JS ES6, Speech Api, Weather Api</span>
                                     </span>
-                                    <span class="app-dopisek opisappiner13">
+                                    <span class="app-dopisek opisappiner13 opisspan">
                                         <span class="pogoda-opis">Aplikacja pobiera lokalizacje oraz dane z zewnętrznego źródła o pogodzie. Google Speech Api odczytuje komendę głosową oraz czyta pogodę.
                                                 Bro tip: Niezbędne jest włączenie lokalizacji.
                                                 Bro tip 2: Musi być uruchomiona na Chrome.
                                         </span>
                                     </span>
-                                    <span class="linki opisappiner14">
+                                    <span class="linki opisappiner14 opisspan">
                                         <a href="#">Github</a> <a href="#">Live</a>
                                     </span>
                                 </div>
                             </div>
-                            <div class="p4-inner-app2 webapp">
+                            <div class="p4-inner-app2 webapp" id="anchorApp2">
                                 <div class="opis-app opisapp2">
-                                    <span class="app-nazwa opisappiner21">Kalendarz</span>
-                                    <span class="app-features opisappiner22">
+                                    <span class="app-nazwa opisappiner21 opisspan">Kalendarz</span>
+                                    <span class="app-features opisappiner22 opisspan">
                                         <span>Użyto: JS ES6, jQuery</span>
                                     </span>
-                                    <span class="app-dopisek opisappiner23">
+                                    <span class="app-dopisek opisappiner23 opisspan">
                                         <span class="kalendarz-opis">Aplikacja wyświetlająca kalendarz, w którym można dodać planowane wydarzenia. Zapisuje wydarzenia w local storage.</span>
                                     </span>
-                                    <span class="linki opisappiner24">
+                                    <span class="linki opisappiner24 opisspan">
                                         <a href="#">Github</a> <a href="#">Live</a>
                                     </span>
                                 </div>
                             </div>
-                            <div class="p4-inner-app3 webapp">
+                            <div class="p4-inner-app3 webapp" id="anchorApp3">
                                 <div class="opis-app opisapp3">
-                                    <span class="app-nazwa opisappiner31">Tekst edytor</span>
-                                    <span class="app-features opisappiner32">
+                                    <span class="app-nazwa opisappiner31 opisspan">Tekst edytor</span>
+                                    <span class="app-features opisappiner32 opisspan">
                                         <span>Użyto: JS ES6, jQuery</span>
                                     </span>
-                                    <span class="app-dopisek opisappiner33">
+                                    <span class="app-dopisek opisappiner33 opisspan">
                                         <span class="edytor-opis">Aplikacja edytor tekstu. Pozwala na edycje tekstu i na kilka opcji edytorskich. Aplikacja pozwala także na zapisanie tekstu w local storage lub pobranie go na dysk.</span>
                                     </span>
-                                    <span class="linki opisappiner34">
+                                    <span class="linki opisappiner34 opisspan">
                                         <a href="#">Github</a> <a href="#">Live</a>
                                     </span>
                                 </div>
                             </div>
-                            <div class="p4-inner-app4 webapp">
-                                <div class="opis-app opisapp4">
+                            <div class="p4-inner-app4 webapp" id="anchorApp4">
+                                <div class="opis-app opisapp4 opisspan">
                                     <span class="app-nazwa opisappiner41">Music player</span>
-                                    <span class="app-features opisappiner42">
+                                    <span class="app-features opisappiner42 opisspan">
                                         <span>Użyto: JS ES6, canvas, audio context</span>
                                     </span>
-                                    <span class="app-dopisek opisappiner43">
+                                    <span class="app-dopisek opisappiner43 opisspan">
                                         <span class="music-opis">Aplikacja player muzyczny. Pozwala na odtworzenie wybranych utworów oraz oferuje wizualizację stworzoną za pomocą audio context.</span>
                                     </span>
-                                    <span class="linki opisappiner44">
+                                    <span class="linki opisappiner44 opisspan">
                                         <a href="#">Github</a> <a href="#">Live</a>
                                     </span>
                                 </div>
@@ -186,7 +190,7 @@
                     </div>
                 </div>
             </div>
-            <div class="p5">
+            <div class="p5" id="anchorKotakt">
                 <div class="bg-layer p5-layer">
                     <div class="p-container">
                         <div class="p5-inner">
@@ -219,6 +223,7 @@
             </div>
         </div>
     </div>
+<script src = "scripts/progressBarScript.js"></script>
 <script src = "scripts/scrollEvents.js"></script>
 <script src = "scripts/helloScreenSettings.js"></script>
 <script src = "scripts/websiteImagesScript.js"></script>

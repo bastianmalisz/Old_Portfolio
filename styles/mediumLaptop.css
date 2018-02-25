@@ -1,4 +1,6 @@
-
+.headerz{
+    transition: 3s cubic-bezier(0.165, 0.84, 0.44, 1) color;
+}
 .pchaj {
     top: 60vh;
     border: 0px;
@@ -70,10 +72,24 @@ body>div>div.rest>div.p2>div>div>div:nth-child(6) {
     border-left-color: transparent;
 }
 .p3-layer {
-    /* background: url(blur30.jpg); */
-    background-size: cover;
-    background-position: center;
-}
+    
+        background: url("../img/white-blur2.jpg");
+        /* background-position: center; */
+        background-size:200% 200%;
+        background-position-x: 50%;
+        background-repeat: no-repeat;
+        /* transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1); */
+        animation-name: bg-animate2;
+        animation-duration: 25s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+        animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    }
+    @keyframes bg-animate2{
+        from{background-position-x: 50%;}
+        to{background-position-x: 0%;}
+    }
+
 .p3-inner {
     /* width: 95%;
 height: 95%;
@@ -85,6 +101,7 @@ top: 2.5%; */
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    
 }
 .web1-info {
     position: absolute;
@@ -120,6 +137,7 @@ top: 2.5%; */
     border: 0;
     box-shadow: 5px 10px 30px rgba(131, 131, 131, 0.479);
     cursor: pointer;
+    transition: 2s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .p3-inner-header {
     width: 60%;
@@ -182,9 +200,22 @@ top: 2.5%; */
     font-weight: 300;
 }
 .p4-layer {
-    background: url("../images/white-blur3.jpg");
-    background-position: center;
-    background-size: cover;
+    
+    background: url("../img/white-blur2.jpg");
+    /* background-position: center; */
+    background-size:200% 200%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    /* transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1); */
+    animation-name: bg-animate2;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+@keyframes bg-animate2{
+    from{background-position-x: 50%;}
+    to{background-position-x: 0%;}
 }
 .p4-inner {
     flex-direction: row;
@@ -208,7 +239,7 @@ top: 2.5%; */
 }
 .webapp {
     border: 0;
-    box-shadow: 10px 10px 30px rgba(177, 177, 177, 0.473);
+    box-shadow: none;
     left: -0.5%;
 }
 .opis-app {
@@ -234,7 +265,7 @@ top: 2.5%; */
     height:  65%;
     position:relative;
     transition: cubic-bezier(0.215, 0.610, 0.355, 1) all 0.5s;
-    background-size: cover;
+    
     background-repeat: no-repeat;
     backface-visibility: hidden;
     
@@ -242,8 +273,10 @@ top: 2.5%; */
 }
 .p4-inner-app1{
     /* background: url("../images/pogodagif.gif"); */
-    background-size: cover;
+    /* background-size: 40% 60%; */
     background-repeat: no-repeat;
+    background-position-x: 0%;
+    /* transition: background-size 0.6s ease-in; */
 }
 .p4-inner-app2{
     top: -60vh;

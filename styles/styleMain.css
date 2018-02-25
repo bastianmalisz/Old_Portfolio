@@ -1,6 +1,6 @@
                                                                                                                          /* Spis treści CSS:
 1) Czesto uzywane klasy zaczynajace sie od prefixu uc- (Usable Class)
-2) Nawigacja, gorny panel (prefix nav)
+2) Nawigacja, gorny panel (prefix nav) i progress bar
 3) Czesc 1 Portfolio: (prefix p1) - pojawiajace sie napisy na scrollu; kod wyszukania w CSS: p1-css-find
 4) Czesc 2 Portfolio: (prefix p2) - animacja chatu; kod wyszukania w CSS: p2-css-find
 5) Czesc 3 Portfolio: (prefix p3) - wykonane witryny; kod wyszukania w CSS: p3-css-find
@@ -120,7 +120,7 @@ html,body {
     border: 1px solid black;
     z-index: 1;
     display: none;
-    z-index: 65;
+    z-index: 101;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -151,6 +151,14 @@ html,body {
     left: 2%;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 67%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 67%, 0 100%);
+}
+.nav-absolute{
+    position: absolute;
+    width: 10%;
+    height: 53%;
+    bottom:-53%;
+    background-color: black;
+    right: -10%;
 }
 
 .nav:hover {
@@ -206,6 +214,27 @@ html,body {
     font-size: 0.8em;
     font-weight: 700;
 }
+
+    /* Progress bar */
+
+    .progress-bar{
+        margin-top:2px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        
+        box-shadow: 1px 2px 10px rgba(116, 116, 116, 0.37);
+        width:0%;
+        height: 10px;
+        position:fixed;
+        top:0;
+        left:0;
+        z-index:101;
+        transition: width 1s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+        transition: background-color 4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+        
+    }
+
+
 /* Ustawienia ogólne dla wszystkich partów*/
 /* wewnętrzny kontener */
 
@@ -344,12 +373,12 @@ html,body {
 /* Ustawienia głównego containera części 2 */
 
 .p2-container {
-    width: 100%;
+    /* width: 100%;
     height: 100%;
     position: relative;
-    background: url("../images/blur35.jpg");
+ 
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 /* Ustawienia wewnętrznego containera części 2 */
 
@@ -366,10 +395,21 @@ html,body {
 }
 
 .p2-layer {
-    background: url("../images/blur35.jpg");
-    background-position: center;
-    background-size: cover;
+    background: url("../img/white-blur2.jpg");
+    /* background-position: center; */
+    background-size: 205% 200%;
+    background-position-x: 50%;
     background-repeat: no-repeat;
+    /* transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1); */
+    animation-name: bg-animate;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+@keyframes bg-animate{
+    from{background-position-x: 50%;}
+    to{background-position-x: 0%;}
 }
 /* Moje zdjecie */
 
@@ -537,7 +577,21 @@ body>div>div.rest>div.p2>div>div>div:nth-child(6) {
 /* UStawienia dla layera części 3 */
 
 .p3-layer {
-    background: url("../images/blur30.jpg");
+    background: url("../img/white-blur2.jpg");
+    /* background-position: center; */
+    background-size:200% 200%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    /* transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1); */
+    animation-name: bg-animate2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+@keyframes bg-animate2{
+    from{background-position-x: 50%;}
+    to{background-position-x: 0%;}
 }
 /* Ustawienia dla kontenera wewnętrznego dla part 3, flexowato, by odpowiednio ustawił boxy ze stronami */
 
@@ -710,7 +764,6 @@ body>div>div.rest>div.p2>div>div>div:nth-child(6) {
     bottom: 7%;
     width: 80%;
     left: 10%;
-    color: rgba(218, 218, 218, 0.836)!important;
 }
 /* Ustawienia kostek aplikacji */
 
@@ -827,12 +880,14 @@ a:hover {
 }
 
 /* Ustawienia backgroundow dla kostek z apkami i w wersji hover (gif) i  w wersji stalej (jpg) */
+
 .p4-inner-app1 {
-    background: url("../images/pogodaimg.jpg");
+    background: url("../images/pogodagif.gif");
     line-height: .70rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    
 }
 .app1-gif{
     background: url("../images/pogodagif.gif");
