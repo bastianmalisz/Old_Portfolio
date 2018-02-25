@@ -4,6 +4,39 @@
 body > div > div.rest > div.p2 > div > div > div:nth-child(6) > span{
     font-size: 1.7em;
 }
+.nav-asbolute{
+    width: 11%!important;
+    height: 32%!important;
+    position: absolute!important;
+    bottom: -35%!important;
+    left: 0!important;
+}
+#napis1{
+    font-size:12em;
+}
+#napis2{
+    font-size:10em;
+}
+@keyframes odsun {
+    from {
+        left: 0
+    }
+    to {
+        left: -80%;
+    }
+}
+ div.p3-inner-webinfo-technologies > span:nth-child(1){
+     font-size: 2em;
+ }
+div.p3-inner-webinfo-technologies > span:nth-child(2){
+    font-size: 1.5em;
+}
+ div.p3-inner-webinfo-link > span{
+    font-size: 2em!important;
+ }
+ div.p3-inner-webinfo-link > a{
+    font-size: 2em!important;
+ }
 .p4-header{
     position:absolute;
     top:0;
@@ -11,6 +44,24 @@ body > div > div.rest > div.p2 > div > div > div:nth-child(6) > span{
 .webapp{
     height:40%;
     transition:all cubic-bezier(0.39, 0.575, 0.565, 1)
+}
+.app-nazwa{
+    font-size: 1.7em;
+}
+.app-features{
+    font-size: 1.7em;
+}
+.pogoda-opis{
+    font-size: 1.3em;
+}
+.kalendarz-opis,.edytor-opis,.music-opis{
+    font-size: 1.6em;
+}
+.linki{
+background-color: transparent!important;
+box-shadow: none!important;
+font-size:2.5em!important;
+opacity:1!important;
 }
 .opis-app{
     width:100%;
@@ -41,6 +92,11 @@ body > div > div.rest > div.p2 > div > div > div:nth-child(6) > span{
     bottom: 7%;
     width: 76%;
     left: 12%;
+}.p5-inner{
+    background-size: 40% 18%;
+    background-repeat: no-repeat;
+    background-position-y: 99%;
+    background-position-x: 107%;
 }
 .p5-header {
     bottom: 3%;
@@ -138,4 +194,18 @@ textarea{
     font-size:1.9em;
     margin-left:20px;
     
+}
+.circle1{
+    width: 20%;
+    height: 15%;
+    top: 40%;
+    left:42.5%;
+    border-top: 8px double rgba(255, 0, 0, 0.493);
+}
+.circle2{
+    width: 20%;
+    height: 15%;
+    top: 40%;
+    left:42.5%;
+    border-bottom: 8px double rgba(0, 0, 255, 0.486);
 }

@@ -1,3 +1,5 @@
+// Skrypt ustawiający navbar
+
 const navBar = document.querySelectorAll(".nav-page");
 const winHeight = window.innerHeight;
 //NAJAZD MYSZKA - DODAJ KLASE POWIEKSZAJACA NA NAJECHANY ELEMENT
@@ -14,7 +16,6 @@ for (i = 0; i < navBar.length; i++) {
 for (i = 0; i < navBar.length; i++) {
     navBar[i].addEventListener("mouseleave", function(e) {
         e.target.classList.remove("nav-big");
-        console.log(e);
         for (j = 0; j < navBar.length; j++) {
             if (navBar[j].classList.contains("nav-small"))
                 navBar[j].classList.remove("nav-small");

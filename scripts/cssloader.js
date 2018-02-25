@@ -1,3 +1,4 @@
+// Skrypt odpowiadający za ładowanie css w zależości od wielkości ekranu
 document.onload = switchCSS();
 function switchCSS(){
 

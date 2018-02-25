@@ -1,10 +1,18 @@
-/* Smartphones (portrait and landscape) ----------- */
+ 
     /* Hello screen */
     #napis1{
         font-size: 4.5em;
     }
     #napis2{
         font-size: 4em;
+    }
+    @keyframes odsun {
+        from {
+            left: 0
+        }
+        to {
+            left: -80%;
+        }
     }
     /* Navigacja */
     .page-nazwa{

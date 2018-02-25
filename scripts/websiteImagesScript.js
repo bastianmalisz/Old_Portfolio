@@ -1,3 +1,4 @@
+//  Skrypt ustawiający kliknięcia na obrazy w sekcji z moimi witrynami
  /* NASLUCHIWANIE KLIKU NA OBRAZKI */
  const bigImage = document.querySelector(".p3-image-big");
  const webImage1 = document.querySelector(".web1");
@@ -12,7 +13,6 @@
 
  caly3part.addEventListener('click', function(e) {
      for (let i = 0; i < parent[0].children.length; i++) {
-         console.log(parent[0].children[i]);
          if (parent[0].children[i].classList.contains("odsun")) {
              parent[0].children[i].classList.remove("odsun");
          }
@@ -23,25 +23,4 @@
      }
 
  });
- // nasluchiwanie najazdu na aplikacje
- // const part4 = document.querySelector(".part4");
-
- // part4.addEventListener('click',function(e){
- //     console.log(e.target.children[1]);
- //     e.target.children[1].classList.toggle("pojaw");
- // })
-
- // zmieniam kolor pazdzierza
- // co sekunde wywal komunikat ze dziolo
- // const pazdzierz = document.querySelector();
- // let i = 0;
- // let coords = [];
- // function go () {
-
-
-
- //     i++;
-
- //     setTimeout(go, 150); // callback
- // }
- // go();
+ 
