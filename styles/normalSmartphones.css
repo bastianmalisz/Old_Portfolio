@@ -50,6 +50,26 @@
 .p4-header {
     bottom: 3%;
 }
+.p4-inner-app1{
+    background: url("../images/pogodaimg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.p4-inner-app2{
+    background: url("../images/calendarimg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.p4-inner-app3{
+    background: url("../images/editorimg.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.p4-inner-app4{
+    background: url("../images/muzykaimg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
 .contact-icons{
     display:row;
 height: 20%;

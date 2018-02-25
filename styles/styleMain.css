@@ -951,10 +951,10 @@ a:hover {
     
 }
 .app1-gif{
-    background: url("../images/pogodagif.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: url("../images/pogodagif.gif")!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-position: center!important;
     cursor: pointer;
 }
 
@@ -967,9 +967,9 @@ a:hover {
 }
 .app2-gif {
     /* background: url("../images/kalendarzgif.gif"); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-position: center!important;
     cursor: pointer;
 }
 
@@ -982,10 +982,10 @@ a:hover {
     background-position-y: 0;
 }
 .app3-gif {
-    background: url("../images/edytorgif.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: url("../images/edytorgif.gif")!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-position: center!important;
     cursor: pointer;
 }
 
@@ -997,10 +997,10 @@ a:hover {
     background-position-x: 0;
 }
 .app4-gif {
-    background: url("../images/muzykagif.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: url("../images/muzykagif.gif")!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-position: center!important;
     cursor: pointer;
 }
 /* Szczególne ustawienia dla 3 apki */
