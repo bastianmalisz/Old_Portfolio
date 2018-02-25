@@ -533,16 +533,16 @@ form>label {
     }
 }
 .nav-page1 {
-    background: url(page1duzy.png);
+    background: url("../images/page1duzy.png");
 }
 .nav-page2 {
-    background: url(page2duzy.png);
+    background: url("../images/page2duzy.png");
 }
 .nav-page3 {
-    background: url(page3duzy.png);
+    background: url("../images/page3duzy.png");
 }
 .nav-page4 {
-    background: url(page4duzy.png);
+    background: url("../images/page4duzy.png");
 }
 .nav-big {
     transform: scale(1.4) translateY(20%);
