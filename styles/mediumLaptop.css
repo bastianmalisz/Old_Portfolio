@@ -310,6 +310,9 @@ top: 2.5%; */
     background-position-y: 20%;
 
 }
+.kalendarz-opis,.edytor-opis,.music-opis{
+    font-size:1.5em;
+}
 .p4-inner-app3{
     top: -125vh;
     /* background: url("../images/edytorgif.gif"); */
@@ -517,7 +520,7 @@ form>label {
     opacity: 0;
     font-size: 2em;
     text-align: center;
-    line-height: 2em;
+    line-height: 3em;
     
     color: rgba(71, 71, 71, 0.767);
     text-shadow: 1px 2px 3px rgba(158, 156, 156, 0.5);
@@ -545,11 +548,11 @@ form>label {
     width: 75%;
     height: 20%;
     border: 1px solid rgba(0, 0, 0, 0.089);
-    font-size: 0.9em;
+    font-size: 0.8em;
     text-align: center;
     word-wrap: break-word;
     opacity: 0;
-    line-height: 5.5em;
+    line-height: 7.5em;
     
     color: rgba(71, 71, 71, 0.767);
     text-shadow: 1px 2px 3px rgba(158, 156, 156, 0.5);

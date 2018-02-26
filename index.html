@@ -200,16 +200,17 @@
                                 Kontakt
                             </div>
                         <div class="form-container">
-                            <form>
+                            <form action="mail.php" method="POST">
                                 <label> Twój Email</label>
-                                <input type="email" name="email" placeholder=" proszę wpisz swój email" required class="input-email">
+                                <input type="email" name="email" placeholder=" proszę wpisz swój email"  class="input-email" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+                                required>
                                 <label>Tekst wiadomości</label>
                                 <textarea class="input-textarea" name="wiadomosc" rows="5" cols="30" required></textarea>
                                 <label class="lapka">Czy chcesz wysłać mi łapkę w górę sugerującą, że podobają Ci się moje projekty? Będzie mi miło.</label>
                                 <select name="kciuk" class="kciuk">
                                     <option value="daj" selected>Bardzo chcę</option>
                                 </select>
-                                <input type="submit" class="submicik">
+                                <input type="submit" class="submicik" value="Wyślij">
                             </form>
                         </div>
                         <div class="contact-icons">
