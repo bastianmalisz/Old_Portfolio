@@ -39,7 +39,7 @@ for (i = 0; i < navBar.length; i++) {
                 window.scrollTo(0, winHeight * 12)
                 break;
             case "nav-page5":
-                window.open("https://bastianmalisz.github.io/Portfolioo/shurtcut.html","_self")
+                window.open("https://bastianmalisz.github.io/html/shurtcut.html","_self")
                 break;
         }
 
