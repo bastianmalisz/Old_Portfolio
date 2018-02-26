@@ -36,9 +36,9 @@ for (i = 0; i < navBar.length; i++) {
                 window.scrollTo(0, winHeight * 4)
                 break;
             case "nav-page4":
-                window.scrollTo(0, winHeight * 9)
+                window.scrollTo(0, winHeight * 12)
                 break;
-                case "nav-page5":
+            case "nav-page5":
                 window.open("shurtcut.html","_self")
                 break;
         }
