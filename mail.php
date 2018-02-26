@@ -1,6 +1,6 @@
 <?php 
-$email = $_POST['email'];
-$message = $_POST['wiadomosc'];
+$email = $_GET['email'];
+$message = $_GET['wiadomosc'];
 $formcontent="Od: $name \n Wiadomość: $message";
 $recipient = "malisz654321@gmail.com";
 $subject = "Informacja z formularza kontaktowego";
