@@ -248,3 +248,50 @@ ul> li > a{
 ul> li > a:hover{
     background-color: rgba(78, 78, 78, 0.397);
 }
+
+@media screen and (max-device-width: 700px) {
+.header{
+    font-size:0.9em;
+    text-align: center;
+    padding:10px;
+    left:0;
+   right: 1%;
+   width:85vw;
+}
+li{
+    font-size:0.5em;
+}
+.nazwa{
+    font-size: 1em;
+}
+.opis{
+    width:90%;
+}
+#ap1 > div > div.op.opis{
+    font-size:0.6em!important;
+}
+#ap2 > div > div.op.opis{
+    font-size:0.6em!important;
+}
+#ap3 > div > div.op.opis{
+    font-size:0.6em!important;
+}
+#ap4 > div > div.op.opis{
+    font-size:0.6em!important;
+
+}
+.op{
+    font-size:0.8em;
+    height:9%;
+}
+.kontakt{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90vw;
+}
+.k1,.k2,.k3{
+    font-size:0.7em;
+}
+
+}

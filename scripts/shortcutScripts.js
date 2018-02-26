@@ -36,10 +36,10 @@ const live = [
     `<a href = "http://kasia-salon.prv.pl">Salon fryzjerski</a>`,
     `<a href = "http://maliwojownicy.org">Witryna fundacji</a>`,
     `<a href = "http://lapkoczyn.co.nf">Strona hobby</a>`,
-    `<a href = "https://github.io/pogoda/pogoda.html/">Aplikacja pogoda</a>`,
-    `<a href = "https://github.io/pogoda/pogoda.html/">Aplikacja kalendarz</a>`,
-    `<a href = "https://github.io/pogoda/pogoda.html/">Aplikacja edytor</a>`,
-    `<a href = "https://github.io/pogoda/pogoda.html/">Aplikacja music player</a>`
+    `<a href = "https://bastianmalisz.github.io/pogoda/pogoda.html">Live pogoda</a>`,
+    `<a href = "https://bastianmalisz.github.io/kal2/kalendarz.html">Live kalendarz</a>`,
+    `<a href = "https://bastianmalisz.github.io/text-editor/editor.html">Live edytor</a>`,
+    `<a href = "https://bastianmalisz.github.io/mp3/mp3.html">Live music player</a>`
 ];
 
 document.querySelector(".header").innerHTML += teksty[0];
