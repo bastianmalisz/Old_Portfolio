@@ -1,9 +1,9 @@
 function wysokoscDokumentu(){
-    document.querySelector(".container").style.height = 8*window.innerHeight+"px";
+    document.querySelector(".container").style.height = 7*window.innerHeight+"px";
 }
 function insertujTeksty(){
 let teksty = [
-    "Hej, to jest skrócona wersja portfolio zawierająca wyciąg z całości bez oprawy, by móc od razu przejść do konretów, by móc łątwo i przyjemnie spojrzeć na clue sprawy - projekty. Z lewej strony przypięta nawigacja, pozwalająca na szybkie przejście do odpowiedniego projektu."
+    "To jest skrócona wersja portfolio zawierająca wyciąg z całości bez oprawy.By móc od razu przejść do konretów, by łatwo i przyjemnie spojrzeć na clue sprawy - projekty. Z lewej strony przypięta nawigacja, pozwalająca na szybkie przejście do odpowiedniego projektu."
 ];
 let nazwy = [
     "Witryna salonu fryzjerskiego",
@@ -23,22 +23,69 @@ const opisy = [
     "Aplikacja edytor tekstu. Pozwala na edycje tekstu i na kilka opcji edytorskich. Aplikacja pozwala także na zapisanie tekstu w local storage lub pobranie go na dysk.",
     "Aplikacja player muzyczny. Pozwala na odtworzenie wybranych utworów oraz oferuje wizualizację stworzoną za pomocą audio context."
 ]
-const techologie = [
+const technologie = [
     "Bootstrap, Javascript, w pełni responsywna",
     "Wordpress",
+    "Wordpress",
     "JS ES6, Speech Api, Weather Api",
+    "JS ES6, jQuery",
     "JS ES6, jQuery",
     "JS ES6, canvas, audio context"
 ]
 const live = [
-    "http://maliwojownicy.org",
-    "http://kasia-salon.prv.pl",
-    "http://lapkoczyn.prv.pl",
-    "https://github.io/pogoda/pogoda.html/",
-    "https://github.io/pogoda/pogoda.html/",
-    "https://github.io/pogoda/pogoda.html/",
-    "https://github.io/pogoda/pogoda.html/",
+    `<a href = "http://kasia-salon.prv.pl">Salon fryzjerski</a>`,
+    `<a href = "http://maliwojownicy.org">Witryna fundacji</a>`,
+    `<a href = "http://lapkoczyn.co.nf">Strona hobby</a>`,
+    `<a href = "https://github.io/pogoda/pogoda.html/">Aplikacja pogoda</a>`,
+    `<a href = "https://github.io/pogoda/pogoda.html/">Aplikacja kalendarz</a>`,
+    `<a href = "https://github.io/pogoda/pogoda.html/">Aplikacja edytor</a>`,
+    `<a href = "https://github.io/pogoda/pogoda.html/">Aplikacja music player</a>`
 ];
+
 document.querySelector(".header").innerHTML += teksty[0];
+let j = 0;
+const opisy1 = document.querySelectorAll(".opis");
+for(let i = 0; i<opisy1.length;i+=2 ){
+    opisy1[i].children[0].innerHTML+=nazwy[j];
+    opisy1[i].children[1].innerHTML+=technologie[j]
+    opisy1[i].children[2].innerHTML+=opisy[j];
+    opisy1[i].children[3].innerHTML+=live[j];
+    j++;
 }
-document.onload = wysokoscDokumentu(),insertujTeksty();
+}
+
+function clickNavi(){
+    const navBar = document.querySelector(".navigation");
+    navBar.addEventListener("click",function(e){
+        
+        switch(e.target.classList[0]) {
+                case "w1":
+                window.scrollTo(0, (document.querySelector("#web1").offsetTop));
+                break;
+                case "w2":
+                window.scrollTo(0, document.querySelector("#web2").offsetTop);
+                break;
+                case "w3":
+                window.scrollTo(0, document.querySelector("#web3").offsetTop);
+                break;
+                case "a1":
+                window.scrollTo(0, document.querySelector("#ap1").offsetTop);
+                break;
+                case "a2":
+                window.scrollTo(0, document.querySelector("#ap2").offsetTop);
+                break;
+                case "a3":
+                window.scrollTo(0, document.querySelector("#ap3").offsetTop);
+                break;
+                case "a4":
+                window.scrollTo(0, document.querySelector("#ap4").offsetTop);
+                break;
+                case "konta":
+                window.scrollTo(0, document.querySelector("#kont").offsetTop);
+                break;
+            default:
+                return;
+        }
+    });
+}    
+document.onload = wysokoscDokumentu(),insertujTeksty(),clickNavi();
