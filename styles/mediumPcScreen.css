@@ -544,6 +544,9 @@ form>label {
 .nav-page4 {
     background: url("../images/page4duzy.png");
 }
+.nav-page5 {
+    background: url("../img/projects.png");
+}
 .nav-big {
     transform: scale(1.4) translateY(20%);
     cursor: pointer;
