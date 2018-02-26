@@ -3,7 +3,7 @@ function wysokoscDokumentu(){
 }
 function insertujTeksty(){
 let teksty = [
-    "To jest skrócona wersja portfolio zawierająca wyciąg z całości bez oprawy.By móc od razu przejść do konretów, by łatwo i przyjemnie spojrzeć na clue sprawy - projekty. Z lewej strony przypięta nawigacja, pozwalająca na szybkie przejście do odpowiedniego projektu."
+    "To jest skrócona wersja portfolio zawierająca wyciąg z całości bez oprawy. By móc od razu przejść do konretów, by łatwo i przyjemnie spojrzeć na clue sprawy - projekty. Z lewej strony przypięta nawigacja, pozwalająca na szybkie przejście do odpowiedniego projektu."
 ];
 let nazwy = [
     "Witryna salonu fryzjerskiego",
