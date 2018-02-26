@@ -1,0 +1,134 @@
+body,html{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size:16px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.container{
+    width: 99%;
+    position: relative;
+    left: 0.5%;
+    display: flex;
+    flex-direction:  column;
+    border: 1px solid rgba(141, 141, 141, 0.445);
+    box-sizing: border-box;
+
+}
+.header{
+    width: 90%;
+    height: 25vh;
+    position:relative;
+    left: 5%;
+    top: 20px;
+    border: 3px dashed rgba(34, 34, 124, 0.5);
+    text-align: center;
+    text-justify: newspaper;
+    font-size: 1.56em;
+}
+.navigation{
+    position:sticky;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 8vw;
+    height: 60vh;
+    border: 3px dashed rgba(221, 53, 53, 0.664);
+    top: 35vh;
+}
+.spis{
+    margin-top: 5px;
+    width: 90%;
+    height: 20vh;
+    position:relative;
+    left: 5%;
+    top: 20px;
+    border: 3px dashed rgba(193, 235, 9, 0.5);
+    text-align: center;
+    text-justify: newspaper;
+    font-size: 0.9em;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+li {
+    float: left;
+    margin: 2px;
+}
+li:hover{
+    background-color: rgba(88, 88, 88, 0.521);
+    transition: all 1s ease;
+    cursor: pointer;
+}
+.navItem{
+    height: calc( 100% / 9);
+    width: 100%;
+    border: 1px solid black;
+}
+.web{
+    width: 95%;
+    position:relative;
+    left: 2.5%;
+    height: 80vh;
+    border: 5px dashed rgba(115, 115, 182, 0.63);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+}
+.app{
+    width: 95%;
+    position:relative;
+    left: 2.5%;
+    height: 80vh;
+    border: 5px dashed rgba(170, 38, 130, 0.63);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+}
+.kontakt{
+    width: 95%;
+    position:relative;
+    left: 2.5%;
+    height: 50vh;
+    border: 5px dashed rgba(47, 221, 70, 0.63);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-sizing: border-box;
+    align-items: center;
+}
+.zdjecie{
+    width: 40%;
+    height: 90%;
+    position: relative;
+    
+}
+.opis{
+    width: 55%;
+    height: 90%;
+    border: double 5px rgb(236, 43, 43);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.website1 > .zdjecie{
+    background: url("../images/kasia-salon.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.op{
+    width: 90%;
+    height: 25%;
+    border :1px solid black;
+}

@@ -74,10 +74,6 @@ body>div>div.rest>div.p2>div>div>div:nth-child(6) {
     background-position: center;
 }
 .p3-inner {
-    /* width: 95%;
-height: 95%;
-left: 2.5%;
-top: 2.5%; */
     position: relative;
     display: flex;
     flex-direction: row;
@@ -263,7 +259,7 @@ top: 2.5%; */
     background-size: contain;
     background-repeat: no-repeat;
 }
-}
+
 .p5-inner {
     background-position: bottom;
     background-size: 35% 30%;
@@ -595,8 +591,6 @@ form>label {
 #napis1 {
     font-size: 12em;
     letter-spacing: 10px;
-    /* font-family: 'Hind', sans-serif; */
-    
     background: url(blur7.jpg) no-repeat;
     transform: translateY(0);
     margin-top: 100px;
@@ -605,7 +599,6 @@ form>label {
     font-weight: 900;
     z-index: -1;
     color: rgba(255, 255, 255, 0.253);
-    /* Fallback: assume this color ON TOP of image */
     position: fixed;
     background-size: 100% 100%;
     -webkit-background-clip: text;
@@ -616,7 +609,6 @@ form>label {
 #napis2 {
     font-size: 10em;
     opacity: 1;
-    
     -webkit-text-fill-color: transparent;
     background: url(blur31.jpg);
     -webkit-background-clip: text;

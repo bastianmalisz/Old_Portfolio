@@ -45,4 +45,6 @@ window.addEventListener('load',function(){
     }, 3000);
     
 })
+}else{
+    const pasek = document.querySelector(".progress-bar").style.backgroundColor = "rgba(255, 29, 255, 0.6)" ;
 }
