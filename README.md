@@ -6,7 +6,7 @@ Stawiam na szybki rozwój umiejętności programistyczych, dobrą współpracę 
 
 # Wersja Live
 Dostępna pod adresem:
-<a href="https://bastianmalisz.github.io/Portfolioo/index.html">Live Sebastian portfolio </a>
+<a href="https://bastianmalisz.github.io/Old_Portfolio/index.html">Live Sebastian portfolio </a>
 
 # O portfolio
 Portfolio składa się z 4 części: 
